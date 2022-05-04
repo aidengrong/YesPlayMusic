@@ -5,6 +5,8 @@ import store from '@/store';
 
 import en from './lang/en.js';
 import zhCN from './lang/zh-CN.js';
+import zhTW from './lang/zh-TW.js';
+import tr from './lang/tr.js';
 
 Vue.use(VueClipboard);
 Vue.use(VueI18n);
