@@ -13,7 +13,7 @@ updateApp();
 export default {
   showLyrics: false,
   enableScrolling: true,
-  title: 'YesPlayMusic',
+  title: '番茄酱Music',
   liked: {
     songs: [],
     songsWithDetails: [], // 只有前12首
