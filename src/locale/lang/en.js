@@ -8,6 +8,7 @@ export default {
     explore: 'Explore',
     library: 'Library',
     search: 'Search',
+    github: '番茄酱云盘',
   },
   footer: {
     settings: 'Settings',
