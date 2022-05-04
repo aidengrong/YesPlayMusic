@@ -86,7 +86,7 @@ export default {
         <a href="https://pan.aidengrong.top"
           >番茄酱的云盘</a
         >
-        看看`,
+        逛逛`,
     noticeElectron: `您的密碼會在本地進行 MD5 加密後再傳輸到網易雲 API。<br />
         YesPlayMusic 不會傳輸你的帳戶資料到任何非網易雲音樂官方的伺服器。<br />`,
   },
