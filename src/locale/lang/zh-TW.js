@@ -8,7 +8,7 @@ export default {
     explore: '發現',
     library: '音樂庫',
     search: '搜尋',
-    github: '番茄酱云盘',
+    github: '番茄酱的云盘',
   },
   home: {
     recommendPlaylist: '推薦歌單',
