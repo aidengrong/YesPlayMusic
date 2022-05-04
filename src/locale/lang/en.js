@@ -87,11 +87,15 @@ export default {
     login: 'Login',
     loginWithEmail: 'Login with Email',
     loginWithPhone: 'Login with Phone',
-    notice: `YesPlayMusic promises not to save any of your account information to the cloud.<br />
-      Your password will be MD5 encrypted locally and then transmitted to NetEase Music API.<br />
-      YesPlayMusic is not the official website of NetEase Music, please consider carefully before entering account information. You can also go to <a href="https://github.com/qier222/YesPlayMusic">YesPlayMusic's GitHub repository</a> to build and use the self-hosted NetEase Music API.`,
-    noticeElectron: `Your password will be MD5 encrypted locally and then transmitted to NetEase Music API.<br />
-      YesPlayMusic promises not to save any of your account information to the cloud.<br />`,
+     notice: `番茄酱Music 承诺不会保存你的任何账号信息到云端。<br />
+      你的密码会在本地进行 MD5 加密后再传输到网易云。<br />
+      番茄酱Music 并非网易云官方网站，输入账号信息前请慎重考虑。 你也可以前往
+      <a href="https://pan.aidengrong.top"
+        >番茄酱的云盘</a
+      >
+      逛逛。`,
+    noticeElectron: `你的密码会在本地进行 MD5 加密后再传输到网易云 API。<br />
+      YesPlayMusic 不会传输你的账号数据到任何非网易云音乐官方的服务器。<br />`,
   },
   mv: {
     moreVideo: 'More Videos',
