@@ -8,6 +8,7 @@ export default {
     explore: 'Keşfet',
     library: 'Kitaplık',
     search: 'Ara',
+    github: '番茄酱云盘',
   },
   footer: {
     settings: 'Ayarlar',
