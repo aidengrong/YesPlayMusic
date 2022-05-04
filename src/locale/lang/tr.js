@@ -8,7 +8,7 @@ export default {
     explore: 'Keşfet',
     library: 'Kitaplık',
     search: 'Ara',
-    github: '番茄酱云盘',
+    github: '番茄酱的云盘',
   },
   footer: {
     settings: 'Ayarlar',
@@ -85,7 +85,7 @@ export default {
     loginWithPhone: 'Phone ile giriş yap',
     notice: `番茄酱Music hesabınızın hiçbir bilgisini kaydetmeyeceğine dair söz veriyor<br />
       Şifren MD5 şifreleme ile yerel olarak şifrelenir ve daha sonra NetEase Müzik'sine gönderilir<br />
-      番茄酱Music, NetEase Music'in resmi websitesi değildir, lütfen hesap bilgilerinizi girmeden önce dikkatlice düşününüz. Aynı zamanda, Kendi NetEase Musix'nızı host etmek için <a href="https://pan.aidengrong.top">番茄酱云盘</a> gidebilirsiniz.`,
+      番茄酱Music, NetEase Music'in resmi websitesi değildir, lütfen hesap bilgilerinizi girmeden önce dikkatlice düşününüz. Aynı zamanda, Kendi NetEase Musix'nızı host etmek için <a href="https://pan.aidengrong.top">番茄酱的云盘</a> gidebilirsiniz.`,
     noticeElectron: `番茄酱Music hesabınızın hiçbir bilgisini kaydetmeyeceğine dair söz veriyor<br />
       Şifren MD5 şifreleme ile yerel olarak şifrelenir ve daha sonra NetEase Müzik'sine gönderilir<br />`,
   },
