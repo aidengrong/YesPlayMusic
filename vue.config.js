@@ -21,7 +21,7 @@ module.exports = {
     },
   },
   pwa: {
-    name: 'YesPlayMusic',
+    name: '番茄酱Music',
     iconPaths: {
       favicon32: 'img/icons/favicon-32x32.png',
     },
@@ -38,7 +38,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'YesPlayMusic',
+      title: '番茄酱Music',
       chunks: ['main', 'chunk-vendors', 'chunk-common', 'index'],
     },
   },
@@ -78,15 +78,15 @@ module.exports = {
       nodeIntegration: true,
       externals: ['@unblockneteasemusic/rust-napi'],
       builderOptions: {
-        productName: 'YesPlayMusic',
-        copyright: 'Copyright © YesPlayMusic',
+        productName: '番茄酱Music',
+        copyright: 'Copyright © 番茄酱Music',
         // compression: "maximum", // 机器好的可以打开，配置压缩，开启后会让 .AppImage 格式的客户端启动缓慢
         asar: true,
         publish: [
           {
             provider: 'github',
             owner: 'qier222',
-            repo: 'YesPlayMusic',
+            repo: '番茄酱Music',
             vPrefixedTagName: true,
             releaseType: 'draft',
           },
@@ -116,7 +116,7 @@ module.exports = {
               arch: ['x64'],
             },
           ],
-          publisherName: 'YesPlayMusic',
+          publisherName: '番茄酱Music',
           icon: 'build/icons/icon.ico',
           publish: ['github'],
         },
