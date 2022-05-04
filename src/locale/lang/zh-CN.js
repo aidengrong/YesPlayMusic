@@ -84,13 +84,9 @@ export default {
     loginWithEmail: '邮箱登录',
     loginWithPhone: '手机号登录',
     notice: `番茄酱Music 承诺不会保存你的任何账号信息到云端。<br />
-      你的密码会在本地进行 MD5 加密后再传输到网易云 API。<br />
-      番茄酱Music 并非网易云官方网站，输入账号信息前请慎重考虑。 你也可以前往
-      <a href="https://github.com/qier222/YesPlayMusic"
-        >番茄酱 的 云盘</a
-      >
-      自行构建并使用自托管的网易云 API。`,
-    noticeElectron: `你的密码会在本地进行 MD5 加密后再传输到网易云 API。<br />
+      你的密码会在本地进行 MD5 加密后再传输到网易云。<br />
+      番茄酱Music 并非网易云官方网站，输入账号信息前请慎重考虑。
+    noticeElectron: `你的密码会在本地进行 MD5 加密后再传输到网易云。<br />
       番茄酱Music 不会传输你的账号数据到任何非网易云音乐官方的服务器。<br />`,
   },
   mv: {
