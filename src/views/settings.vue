@@ -674,7 +674,7 @@
       <div class="footer">
         <p class="author"
           >MADE BY
-          <a href="http://github.com/qier222" target="_blank">QIER222</a></p
+          <a href="http://music.aidengrong.top" target="_blank">番茄酱</a></p
         >
         <p class="version">v{{ version }}</p>
       </div>
