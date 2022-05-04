@@ -8,7 +8,6 @@ export default {
     explore: 'Keşfet',
     library: 'Kitaplık',
     search: 'Ara',
-    github: 'GitHub Repo',
   },
   footer: {
     settings: 'Ayarlar',
