@@ -8,7 +8,7 @@ export default {
     explore: 'Explore',
     library: 'Library',
     search: 'Search',
-    github: '番茄酱云盘',
+    github: '番茄酱的云盘',
   },
   footer: {
     settings: 'Settings',
@@ -89,7 +89,7 @@ export default {
     loginWithPhone: 'Login with Phone',
     notice: `番茄酱Music promises not to save any of your account information to the cloud.<br />
       Your password will be MD5 encrypted locally and then transmitted to NetEase Music.<br />
-      番茄酱Music is not the official website of NetEase Music, please consider carefully before entering account information. You can also go to <a href="https://pan.aidengrong.top">番茄酱云盘</a>.`,
+      番茄酱Music is not the official website of NetEase Music, please consider carefully before entering account information. You can also go to <a href="https://pan.aidengrong.top">番茄酱云盘</a>`,
     noticeElectron: `Your password will be MD5 encrypted locally and then transmitted to NetEase Music.<br />
       番茄酱Music promises not to save any of your account information to the cloud.<br />`,
   },
