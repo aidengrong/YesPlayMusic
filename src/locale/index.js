@@ -14,7 +14,7 @@ const i18n = new VueI18n({
   messages: {
     en,
     'zh-CN': zhCN,
-    'en': en,
+    'zh-TW': zhTW,
     tr,
   },
   silentTranslationWarn: true,
