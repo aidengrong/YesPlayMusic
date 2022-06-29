@@ -204,6 +204,22 @@
       </div>
       <div class="item">
         <div class="left">
+          <div class="title"> {{ $t('settings.showLyricsTime') }} </div>
+        </div>
+        <div class="right">
+          <div class="toggle">
+            <input
+              id="show-lyrics-time"
+              v-model="showLyricsTime"
+              type="checkbox"
+              name="show-lyrics-time"
+            />
+            <label for="show-lyrics-time"></label>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="left">
           <div class="title"> {{ $t('settings.lyricFontSize.text') }} </div>
         </div>
         <div class="right">
@@ -677,6 +693,16 @@
           <a href="http://music.aidengrong.top" target="_blank">番茄酱</a></p
         >
         <p class="version">v{{ version }}</p>
+
+        <a
+          v-if="!isElectron"
+          href="https://vercel.com/?utm_source=ohmusic&utm_campaign=oss"
+        >
+          <img
+            height="36"
+            src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
+          />
+        </a>
       </div>
     </div>
   </div>
@@ -922,6 +948,17 @@ export default {
       set(value) {
         this.$store.commit('updateSettings', {
           key: 'lyricsBackground',
+          value,
+        });
+      },
+    },
+    showLyricsTime: {
+      get() {
+        return this.settings.showLyricsTime;
+      },
+      set(value) {
+        this.$store.commit('updateSettings', {
+          key: 'showLyricsTime',
           value,
         });
       },
