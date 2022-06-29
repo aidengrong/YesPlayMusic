@@ -693,7 +693,6 @@
           <a href="http://music.aidengrong.top" target="_blank">番茄酱</a></p
         >
         <p class="version">v{{ version }}</p>
-
         </a>
       </div>
     </div>
