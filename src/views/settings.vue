@@ -696,11 +696,11 @@
 
         <a
           v-if="!isElectron"
-          href="https://vercel.com/?utm_source=ohmusic&utm_campaign=oss"
+          href="https://music.aidengrong.top/"
         >
           <img
             height="36"
-            src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
+            src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-6f00c918-7a62-47b5-8e8a-9578acfb171c/6466bdd7-49ee-47fc-957f-58f3c03e3795.png"
           />
         </a>
       </div>
