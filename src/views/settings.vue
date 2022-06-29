@@ -696,7 +696,7 @@
 
         <a
           v-if="!isElectron"
-          href="https://vercel.com/?utm_source=ohmusic&utm_campaign=oss"
+          href="https://music.aidengrong.top"
         >
           <img
             height="36"
