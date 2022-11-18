@@ -38,7 +38,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: '番茄酱Music',
+      title: '番茄酱的Music',
       chunks: ['main', 'chunk-vendors', 'chunk-common', 'index'],
     },
   },
@@ -78,15 +78,15 @@ module.exports = {
       nodeIntegration: true,
       externals: ['@unblockneteasemusic/rust-napi'],
       builderOptions: {
-        productName: '番茄酱Music',
-        copyright: 'Copyright © 番茄酱Music',
+        productName: '番茄酱的Music',
+        copyright: 'Copyright © 番茄酱的Music',
         // compression: "maximum", // 机器好的可以打开，配置压缩，开启后会让 .AppImage 格式的客户端启动缓慢
         asar: true,
         publish: [
           {
             provider: 'github',
             owner: 'qier222',
-            repo: '番茄酱Music',
+            repo: '番茄酱的Music',
             vPrefixedTagName: true,
             releaseType: 'draft',
           },
@@ -116,7 +116,7 @@ module.exports = {
               arch: ['x64'],
             },
           ],
-          publisherName: '番茄酱Music',
+          publisherName: '番茄酱的Music',
           icon: 'build/icons/icon.ico',
           publish: ['github'],
         },
