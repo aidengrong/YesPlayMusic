@@ -21,7 +21,7 @@ module.exports = {
     },
   },
   pwa: {
-    name: '番茄酱Music',
+    name: '番茄酱的Music',
     iconPaths: {
       favicon32: 'img/icons/favicon-32x32.png',
     },
